@@ -1,0 +1,23 @@
+package com.example.unite4_kararvedongu;
+
+
+import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Uyg7Activity extends AppCompatActivity {
+    @Override
+    protected  void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.uyg7_activity);
+    }
+
+    @Override
+    protected void onResume(){
+        super.onResume();
+        for (int i=1;i<=50;i++){
+            System.out.println(i);
+        }
+    }
+
+}
