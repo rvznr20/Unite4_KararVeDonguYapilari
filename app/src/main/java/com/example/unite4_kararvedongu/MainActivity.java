@@ -44,4 +44,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
 
     }
-}
+    public  void  btnGoldSoru(View view){
+        Intent i = new Intent(MainActivity.this,Goldsoru1.class);
+            startActivity(i);
+        }
+        public  void  btnGoldSoru2(View view){
+        Intent i = new Intent(MainActivity.this,Goldsoru2.class);
+        startActivity(i);
+        }
+
+
+    }

@@ -10,4 +10,6 @@
     <string name="uyg8_name">Uygulama-8 ( 1’den 100’e kadar üçün katı olan sayılar)</string>
     <string name="uyg9_name">Uygulama-9 (Tek-Çift Sayılar)</string>
     <string name="uyg10_name">Uygulama-10 (faktöriyel Sayı)</string>
+    <string name="goldsoru1">GOLD SORU1 (ÇARPIM TABLOSU)></string>
+    <string name="goldsoru2">GOLD SORU2 ( TEK VE ÇİFT SAYILARI TOPLA)></string>
 </resources>

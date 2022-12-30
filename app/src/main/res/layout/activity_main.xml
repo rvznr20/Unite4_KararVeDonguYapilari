@@ -132,4 +132,45 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.653" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="223dp"
+        android:layout_height="52dp"
+        android:fontFamily="cursive"
+        android:text="Gold sorular"
+        android:textColor="@color/red"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74" />
+
+    <Button
+        android:id="@+id/btngold1"
+        android:layout_width="168dp"
+        android:layout_height="80dp"
+        android:onClick="btnGoldSoru"
+        android:text="Gold Soru1(Çarpım Tablosu)"
+        android:textColor="@color/Gold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btngold2"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881" />
+
+    <Button
+        android:id="@+id/btngold2"
+        android:layout_width="157dp"
+        android:layout_height="81dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="btnGoldSoru2"
+        android:text="Gold Soru2(Tek ve Çift Sayılar)"
+        android:textColor="@color/Gold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
